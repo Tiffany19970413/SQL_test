@@ -45,7 +45,7 @@ SELECT   ename, salary * 12 AS AnnualSalary
 FROM     cmdev.emp
 ORDER BY 2
 
-# 雖然「Population」欄位沒有在查詢資料中，也可用來排序
+#雖然「Population」欄位沒有在查詢資料中，也可用來排序
 SELECT   CountryCode, Name
 FROM     city
 ORDER BY Population
