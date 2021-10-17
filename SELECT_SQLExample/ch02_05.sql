@@ -1,8 +1,8 @@
-
+#指定查詢結果數量
+#「LIMIT」只會回傳指定的紀錄數量，超過的會被忽略
 SELECT empno, ename 
 FROM   cmdev.emp 
 LIMIT  5
-
 
 SELECT empno, ename 
 FROM   cmdev.emp 
