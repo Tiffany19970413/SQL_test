@@ -1,3 +1,5 @@
+# OUTER.JOIN語法
+
 # cmdev資料庫的emp表格，deptno欄位儲存員工部門編號
 #資料包含null的部門編號
 SELECT empno, ename, deptno
